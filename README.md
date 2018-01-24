@@ -11,4 +11,4 @@ The color scheme matches the application icon color.
 - Background for total amount of bill
 
 ## GIF
-<a href="https://imgflip.com/gif/238yrg"><img src="https://i.imgflip.com/238yrg.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/238z0w"><img src="https://i.imgflip.com/238z0w.gif" title="made at imgflip.com"/></a>
