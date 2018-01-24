@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5400628B2016F66A00348365 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5400628A2016F66A00348365 /* SettingsViewController.swift */; };
 		54C854D62016A5E9002DFA2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C854D52016A5E9002DFA2B /* AppDelegate.swift */; };
 		54C854D82016A5E9002DFA2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C854D72016A5E9002DFA2B /* ViewController.swift */; };
 		54C854DB2016A5E9002DFA2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C854D92016A5E9002DFA2B /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5400628A2016F66A00348365 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		54C854D22016A5E9002DFA2B /* tipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C854D52016A5E9002DFA2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54C854D72016A5E9002DFA2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				54C854D52016A5E9002DFA2B /* AppDelegate.swift */,
 				54C854D72016A5E9002DFA2B /* ViewController.swift */,
 				54C854D92016A5E9002DFA2B /* Main.storyboard */,
+				5400628A2016F66A00348365 /* SettingsViewController.swift */,
 				54C854DC2016A5E9002DFA2B /* Assets.xcassets */,
 				54C854DE2016A5E9002DFA2B /* LaunchScreen.storyboard */,
 				54C854E12016A5EA002DFA2B /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				54C854D82016A5E9002DFA2B /* ViewController.swift in Sources */,
 				54C854D62016A5E9002DFA2B /* AppDelegate.swift in Sources */,
+				5400628B2016F66A00348365 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,9 +431,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_STYLE[sdk=iphoneos*]" = Automatic;
+				DEVELOPMENT_TEAM = 2KMUXZ44WH;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2KMUXZ44WH;
 				INFOPLIST_FILE = tipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.DiMedina.tipCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dimedina-tipCalculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -441,9 +448,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_STYLE[sdk=iphoneos*]" = Automatic;
+				DEVELOPMENT_TEAM = 2KMUXZ44WH;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2KMUXZ44WH;
 				INFOPLIST_FILE = tipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.DiMedina.tipCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dimedina-tipCalculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
