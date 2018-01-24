@@ -9,3 +9,6 @@ The user is welcomed with a quick splash screen of the custom application icon.
 The color scheme matches the application icon color.
 - Background color for percentage radio button 
 - Background for total amount of bill
+
+## GIF
+<a href="https://imgflip.com/gif/238yrg"><img src="https://i.imgflip.com/238yrg.gif" title="made at imgflip.com"/></a>
